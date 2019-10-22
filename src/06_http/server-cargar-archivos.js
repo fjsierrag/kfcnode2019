@@ -13,6 +13,7 @@ const server = http.createServer((req, res) => {
     });
     req.pipe(ws);
     ws.on("finish",()=>{
+        res.writeHead(200);
         res.end();
     });
 });
