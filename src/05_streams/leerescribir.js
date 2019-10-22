@@ -8,7 +8,7 @@ let cuenta=0;
 rs.on("data",chunk=>{
     writeStream.write(chunk);
     cuenta++;
-})
+});
 
 rs.on("end",()=>{
     writeStream.end();
