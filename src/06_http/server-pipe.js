@@ -1,15 +1,8 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-
-    req.on("data",chunk=>{
-        res.write(chunk);
-    });
-
-    req.on("end",()=>{
-        res.end();
-    });
-
+    res.writeHead(200);
+    req.pipe(res);
 });
 
 server.listen(3000, () => {
