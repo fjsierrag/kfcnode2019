@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ejercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejercicios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_modulos/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_modulos/modulo1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_package/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_package/escritura_archivos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_package/lectura_archivos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_package/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_holamundo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_holamundo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_server/server1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_server/server1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_server/server2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_server/server2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +32,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SXD4iBMfRSkiWhAtCVYpHWWc5M" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/04_package" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
@@ -45,6 +49,7 @@
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\01_holamundo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\04_package" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios" />
     </key>
   </component>
@@ -71,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571700857462</updated>
       <workItem from="1571700859242" duration="543000" />
-      <workItem from="1571701454698" duration="803000" />
+      <workItem from="1571701454698" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -80,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571701724171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primer commit">
+      <created>1571702279135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571702279135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +110,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
