@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/public/archivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/public/img/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07_express_01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_express_01/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,23 +47,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/07_express_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/07_express_01/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\06_http" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\05_streams" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\04_package" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public\img" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\03_modulos" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\02_server" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\01_holamundo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +91,7 @@
       <updated>1571700857462</updated>
       <workItem from="1571700859242" duration="543000" />
       <workItem from="1571701454698" duration="14138000" />
-      <workItem from="1571787130871" duration="1991000" />
+      <workItem from="1571787130871" duration="3214000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -152,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571788715717</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Express 01">
+      <created>1571789183137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571789183137</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,8 @@
     <MESSAGE value="Streams - http" />
     <MESSAGE value="Server http - pipe" />
     <MESSAGE value="Servidores http -  enviar pocentaje de avance&#10;Servidores http - archivos estaticos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servidores http -  enviar pocentaje de avance&#10;Servidores http - archivos estaticos" />
+    <MESSAGE value="Express 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Express 01" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
