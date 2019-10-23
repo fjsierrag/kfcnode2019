@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/public/archivo3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/public/img/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/logger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/07_express_01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_express_01/index.js" afterDir="false" />
     </list>
@@ -91,7 +89,7 @@
       <updated>1571700857462</updated>
       <workItem from="1571700859242" duration="543000" />
       <workItem from="1571701454698" duration="14138000" />
-      <workItem from="1571787130871" duration="3214000" />
+      <workItem from="1571787130871" duration="7135000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571789183137</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Archivos estaticos, carpeta public">
+      <created>1571790405268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571790405268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +196,8 @@
     <MESSAGE value="Server http - pipe" />
     <MESSAGE value="Servidores http -  enviar pocentaje de avance&#10;Servidores http - archivos estaticos" />
     <MESSAGE value="Express 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Express 01" />
+    <MESSAGE value="Archivos estaticos, carpeta public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivos estaticos, carpeta public" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
