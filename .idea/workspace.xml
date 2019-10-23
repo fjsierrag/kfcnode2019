@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/06_http/server-cargar-archivos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_http/server-cargar-archivos.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -90,7 +87,7 @@
       <updated>1571700857462</updated>
       <workItem from="1571700859242" duration="543000" />
       <workItem from="1571701454698" duration="14138000" />
-      <workItem from="1571787130871" duration="1547000" />
+      <workItem from="1571787130871" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571788253804</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Servidores http -  enviar pocentaje de avance&#10;Servidores http - archivos estaticos">
+      <created>1571788715717</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788715717</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
