@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/07_express_01/index3-rutas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/index4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/keywords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07_express_01/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/07_express_01/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_express_01/package.json" afterDir="false" />
     </list>
@@ -77,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start3-rutas">
+  <component name="RunManager" selected="npm.start4">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/07_express_01/package.json" />
       <command value="run" />
@@ -98,8 +100,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/07_express_01/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start4" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start4" />
         <item itemvalue="npm.start3-rutas" />
         <item itemvalue="npm.start" />
       </list>
@@ -119,7 +132,7 @@
       <workItem from="1571701454698" duration="14138000" />
       <workItem from="1571787130871" duration="7193000" />
       <workItem from="1571841004729" duration="76000" />
-      <workItem from="1571873008996" duration="4365000" />
+      <workItem from="1571873008996" duration="6626000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -212,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571876725463</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CRUD - con rutas">
+      <created>1571877445852</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571877445852</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +263,8 @@
     <MESSAGE value="Archivos estaticos, carpeta public" />
     <MESSAGE value="QueryString" />
     <MESSAGE value="CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
+    <MESSAGE value="CRUD - con rutas" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD - con rutas" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

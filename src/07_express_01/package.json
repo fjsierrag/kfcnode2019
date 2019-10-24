@@ -8,7 +8,8 @@
     "start": "nodemon index.js",
     "start2": "nodemon index2.js",
     "start3": "nodemon index3.js",
-    "start3-rutas": "nodemon index3-rutas.js"
+    "start3-rutas": "nodemon index3-rutas.js",
+    "start4": "nodemon index4.js"
   },
   "keywords": [],
   "author": "",
