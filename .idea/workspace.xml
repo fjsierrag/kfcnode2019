@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/api/keywords/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/api/keywords/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/api/products/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/api/products/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/public/archivo3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/public/img/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/08_express_02/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/08_express_02/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_express_02/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/08_express_02/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_express_02/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/08_express_02/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_express_02/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +160,7 @@
       <workItem from="1571873008996" duration="6892000" />
       <workItem from="1571925858272" duration="19000" />
       <workItem from="1571958308141" duration="2583000" />
+      <workItem from="1571961314223" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -276,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571880517038</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Reorganizando el proyecto">
+      <created>1571961426375</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571961426375</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +307,8 @@
     <MESSAGE value="CRUD" />
     <MESSAGE value="CRUD - con rutas" />
     <MESSAGE value="CRUD REST" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD REST" />
+    <MESSAGE value="Reorganizando el proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganizando el proyecto" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
