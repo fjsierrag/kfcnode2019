@@ -2,9 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/08_express_02/api/keywords/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/08_express_02/api/products/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/products/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/products/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/products/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/users/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/users/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/public/archivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/public/deck.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/public/img/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/products/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/products/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/products/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/public/archivo3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/public/img/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/08_express_02/api/keywords/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_express_02/api/keywords/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/08_express_02/api/products/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_express_02/api/products/controller.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,17 +98,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/08_express_02/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/api/users" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api\products" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\06_http" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public\img" />
@@ -78,6 +117,11 @@
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\02_server" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="npm install --save jsonwebtoken bcryptjs" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,9 +135,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start (1)">
+  <component name="RunManager" selected="npm.start (2)">
     <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/08_express_02/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -134,10 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start4" />
         <item itemvalue="npm.start3-rutas" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +213,10 @@
       <workItem from="1571873008996" duration="6892000" />
       <workItem from="1571925858272" duration="19000" />
       <workItem from="1571958308141" duration="2583000" />
-      <workItem from="1571961314223" duration="5328000" />
+      <workItem from="1571961314223" duration="5429000" />
+      <workItem from="1572012695911" duration="603000" />
+      <workItem from="1572302872057" duration="2717000" />
+      <workItem from="1572305949850" duration="5063000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -279,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571963532455</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Rutas con Mongoose">
+      <created>1571966767605</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571966767605</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +381,8 @@
     <MESSAGE value="CRUD REST" />
     <MESSAGE value="Reorganizando el proyecto" />
     <MESSAGE value="COnexion a MOngoDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="COnexion a MOngoDB" />
+    <MESSAGE value="Rutas con Mongoose" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rutas con Mongoose" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
