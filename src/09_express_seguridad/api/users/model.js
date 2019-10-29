@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const bcrypt = require("bcryptjs");
+const {createHash} = require("../auth");
 
 const schema = new mongoose.Schema({
     name: {type: String, required: true},
@@ -14,7 +14,7 @@ schema.pre("save", async function (next) {
             return next();
         }
         const plainPass = self.password;
-        const hashedPassword = await bcrypt.hash(plainPass, 10);
+        const hashedPassword = await createHash(plainPass);
         self.password = hashedPassword;
         next();
     } catch (e) {

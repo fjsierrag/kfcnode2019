@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/auth/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/users/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/users/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/users/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/users/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/users/model.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,24 +62,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/api/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/api/auth" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api\products" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public\img" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\03_modulos" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\02_server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api\products" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -181,7 +181,7 @@
       <workItem from="1572012695911" duration="603000" />
       <workItem from="1572302872057" duration="2717000" />
       <workItem from="1572305949850" duration="7173000" />
-      <workItem from="1572386130307" duration="4153000" />
+      <workItem from="1572386130307" duration="6540000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572311078403</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Tokens, login, Usuarios">
+      <created>1572390535754</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572390535754</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,22 +1,4 @@
 const Keyword = require("./model");
-
-/*
-const keywords = [
-    {
-        id: "nodejs",
-        descripcion: "Lenguaje js",
-        url: "http://url1.com"
-    }, {
-        id: "php",
-        descripcion: "Lenguaje PHP",
-        url: "http://url2.com"
-    }, {
-        id: "Laravel",
-        descripcion: "Framework PHP",
-        url: "http://url3.com"
-    }
-];
-*/
 async function search(req, res) {
     try {
         const keywords = await Keyword.find();
@@ -24,19 +6,6 @@ async function search(req, res) {
     } catch (error) {
         res.status(500).send(error);
     }
-    /*
-    Keyword.find()
-        .then(keywords => res.send(keywords))
-        .catch(err => res.status(500).send(err));
-    */
-    /*
-    Keyword.find((err, keywords)=>{
-        if(err){
-            return reas.status(500).send(err);
-        }
-        return res.send(keywords);
-    });
-     */
 }
 
 async function create(req, res) {

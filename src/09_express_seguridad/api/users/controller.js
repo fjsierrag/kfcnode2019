@@ -1,13 +1,11 @@
 const User = require("./model");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
+const {createToken, compareHash} = require("../auth");
 
 async function create(req, res) {
     const bodynewUser = req.body;
 
     try {
         const newUser = await User.create(bodynewUser);
-
         res.status(201).send(newUser);
     } catch (error) {
         // console.log(error);
@@ -30,18 +28,14 @@ async function login(req, res) {
         const user = await User.findOne({email})
             .select(["password", "email"]);
 
-        const isMatch = await bcrypt.compare(password, user.password);
+        const isMatch = compareHash(password, user.password);
         if (!isMatch) {
             return res.status(400).send("Usuario o clave incorrectos");
         }
 
-        const payload = {
-            _id: user._id,
-            email: user.email
-        }
-        const token = jwt.sign(payload, "THISISASECRET", {expiresIn: "2h"});
-        //const token = "1234567890";
-        res.send(token);
+        const token = createToken(user);
+
+        res.send({token});
     } catch (error) {
         console.log(error);
     }
