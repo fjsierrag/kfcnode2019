@@ -3,20 +3,19 @@ const bcrypt = require("bcryptjs");
 
 const schema = new mongoose.Schema({
     name: {type: String, required: true},
-    email: {type: String, required: true},
+    email: {type: String, required: true, unique: true},
     password: {type: String, required: true, select: false}
 });
 
 schema.pre("save", async function (next) {
+    const self = this;
     try {
-        const user = this;
-
-        if (!user.isModified("password")) {
+        if (!self.isModified("password")) {
             return next();
         }
-        const plainPass = user.password;
+        const plainPass = self.password;
         const hashedPassword = await bcrypt.hash(plainPass, 10);
-        user.password = hashedPassword;
+        self.password = hashedPassword;
         next();
     } catch (e) {
         console.log(e);
