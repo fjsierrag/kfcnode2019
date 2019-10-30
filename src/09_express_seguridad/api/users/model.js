@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const {createHash} = require("../auth");
+const {createHash} = require("../crypt");
 
 const schema = new mongoose.Schema({
     name: {type: String, required: true},

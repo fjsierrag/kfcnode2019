@@ -1,7 +1,10 @@
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcryptjs");
+const User = require("../users/model");
 
-function isLoggedIn(req, res, next) {
+const SECRET_KEY = "THISISASECRET";
+const TOKEN_EXPIRES_IN = "2h";
+
+async function isLoggedIn(req, res, next) {
     try {
         const auth = req.headers["authorization"];
         if (!auth) {
@@ -9,8 +12,10 @@ function isLoggedIn(req, res, next) {
         }
         const bearer = auth.split(" ");
         const token = bearer[1];
-        const payload = jwt.verify(token, "THISISASECRET");
-        req.user = payload;
+        const payload = jwt.verify(token, SECRET_KEY);
+
+        const user = await User.findById(payload._id);
+        req.user = user;
         next();
     } catch (error) {
         console.log(error);
@@ -21,24 +26,12 @@ function createToken(user) {
     const payload = {
         _id: user._id,
         email: user.email
-    }
+    };
 
-    return jwt.sign(payload, "THISISASECRET", {expiresIn: "2h"});
-}
-
-async function createHash(text) {
-    return await bcrypt.hash(text, 10);
-}
-
-async function compareHash(text, hash) {
-    return await bcrypt.compare(text, hash);
+    return jwt.sign(payload, SECRET_KEY, {expiresIn: TOKEN_EXPIRES_IN});
 }
 
 module.exports = {
     isLoggedIn,
-    createToken,
-    createHash,
-    compareHash
+    createToken
 }
-
-

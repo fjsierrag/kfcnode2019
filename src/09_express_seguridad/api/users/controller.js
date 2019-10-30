@@ -1,5 +1,6 @@
 const User = require("./model");
-const {createToken, compareHash} = require("../auth");
+const {createToken} = require("../auth");
+const {compareHash} = require("../crypt");
 
 async function create(req, res) {
     const bodynewUser = req.body;
