@@ -8,7 +8,14 @@ const app = express();
 middleware(app);
 routes(app);
 
+//por defecto
+app.set("view engine", "ejs");
+
 db.connect();
 app.listen(3000, () => {
     console.log("http://localhost:3000");
+});
+
+app.get("/about", (req, res) => {
+    res.render("about", {message: "Ya dañé todo!"});
 });
