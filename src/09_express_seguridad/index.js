@@ -5,6 +5,9 @@ const routes = require("./routes");
 const db = require("./database");
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || "localhost";
+
 middleware(app);
 routes(app);
 
@@ -12,6 +15,7 @@ routes(app);
 app.set("view engine", "ejs");
 
 db.connect();
-app.listen(3000, () => {
-    console.log("http://localhost:3000");
+app.listen(PORT, () => {
+
+    console.log(`http://${HOST}:${PORT}`);
 });

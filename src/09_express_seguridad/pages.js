@@ -2,8 +2,9 @@ const express = require("express");
 const router = express.Router();
 const keywordService = require("./api/keywords/service");
 
-router.route("/about", (req, res) => {
-    res.render("about", {
+router.route("/about")
+    .get((req, res) => {
+        res.render("templates/about", {
         message: "Ya dañé todo!",
         cosas: ["FIFA", "God of War", "Age Of Empires", "GTA V"]
     });
@@ -12,7 +13,7 @@ router.route("/about", (req, res) => {
 router.route("/keywords")
     .get(async (req, res) => {
         const keywords = await keywordService.search();
-        res.render("keywords", {
+        res.render("templates/keywords", {
             keywords
         });
     });

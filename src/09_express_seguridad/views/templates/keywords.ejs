@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<%- include('../partials/header'); %>
 <h1>Keywords: </h1>
 <ul>
     <% keywords.forEach(value =>{ %>
     <li><%= value.desc %></li>
     <% }); %>
 </ul>
+<%- include('../partials/footer'); %>
 </body>
 </html>

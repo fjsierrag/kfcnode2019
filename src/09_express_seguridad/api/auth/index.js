@@ -1,8 +1,8 @@
 const jwt = require("jsonwebtoken");
 const User = require("../users/model");
 
-const SECRET_KEY = "THISISASECRET";
-const TOKEN_EXPIRES_IN = "2h";
+const SECRET_KEY = process.env.SECRET_KEY || "THISISASECRET";
+const TOKEN_EXPIRES_IN = process.env.TOKEN_EXPIRES_IN || "2h";
 
 async function isLoggedIn(req, res, next) {
     try {

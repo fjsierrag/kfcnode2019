@@ -8,12 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<h1>El titulo ve!</h1>
+<%- include('../partials/header'); %>
+
 <p><%= message %></p>
 <ul>
     <% cosas.forEach(value =>{ %>
     <li><%= value %></li>
     <% }); %>
 </ul>
+<%- include('../partials/footer'); %>
 </body>
 </html>

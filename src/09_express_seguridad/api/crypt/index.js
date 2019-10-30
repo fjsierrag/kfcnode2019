@@ -1,5 +1,5 @@
 const bcrypt = require("bcryptjs");
-const HASH_SALT = 10;
+const HASH_SALT = process.env.HASH_SALT || 10;
 
 async function createHash(text) {
     return await bcrypt.hash(text, HASH_SALT);

@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/keywords.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/partials/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/partials/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/auth/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/crypt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/crypt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/about.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/keywords.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/keywords.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,25 +70,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/views/partials" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\crypt" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views\templates" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public\img" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\03_modulos" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\02_server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views\partials" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\crypt" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -107,7 +110,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start (2)">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/08_express_02/package.json" />
       <command value="run" />
@@ -138,16 +151,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start3-rutas" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/src/07_express_01/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start3-rutas" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/07_express_01/package.json" />
       <command value="run" />
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start4" />
-        <item itemvalue="npm.start3-rutas" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +193,9 @@
       <workItem from="1572302872057" duration="2717000" />
       <workItem from="1572305949850" duration="7173000" />
       <workItem from="1572386130307" duration="9979000" />
-      <workItem from="1572396463868" duration="2588000" />
+      <workItem from="1572396463868" duration="2711000" />
+      <workItem from="1572445266478" duration="1227000" />
+      <workItem from="1572475619990" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -353,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572396747678</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Servicio Keywords">
+      <created>1572399148279</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572399148279</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +406,8 @@
     <MESSAGE value="Tokens, login, Usuarios" />
     <MESSAGE value="Separando Auth y Crypt" />
     <MESSAGE value="EJS, vista /about" />
-    <option name="LAST_COMMIT_MESSAGE" value="EJS, vista /about" />
+    <MESSAGE value="Servicio Keywords" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servicio Keywords" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
