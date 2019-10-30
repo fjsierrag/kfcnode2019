@@ -1,12 +1,9 @@
-const express = require("express");
-const keywords = require("./api/keywords");
-const products = require("./api/products");
-const users = require("./api/users");
+const api = require("./api");
+const pages = require("./pages");
 
 function routes(app) {
-    app.use("/api/keywords", keywords);
-    app.use("/api/products", products);
-    app.use("/api/users", users);
+    app.use("/api", api);
+    app.use("/pages", pages);
 }
 
 module.exports = routes;

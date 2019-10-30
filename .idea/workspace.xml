@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/keywords.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/keywords/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +43,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,24 +67,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/api/crypt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\crypt" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public\img" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\03_modulos" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\02_server" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\crypt" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\08_express_02\api\products" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -182,7 +190,7 @@
       <workItem from="1572302872057" duration="2717000" />
       <workItem from="1572305949850" duration="7173000" />
       <workItem from="1572386130307" duration="9979000" />
-      <workItem from="1572396463868" duration="233000" />
+      <workItem from="1572396463868" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -338,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572396086996</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="EJS, vista /about">
+      <created>1572396747678</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1572396747678</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +393,8 @@
     <MESSAGE value="Rutas con Mongoose" />
     <MESSAGE value="Tokens, login, Usuarios" />
     <MESSAGE value="Separando Auth y Crypt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separando Auth y Crypt" />
+    <MESSAGE value="EJS, vista /about" />
+    <option name="LAST_COMMIT_MESSAGE" value="EJS, vista /about" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

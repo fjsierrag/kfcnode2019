@@ -15,7 +15,3 @@ db.connect();
 app.listen(3000, () => {
     console.log("http://localhost:3000");
 });
-
-app.get("/about", (req, res) => {
-    res.render("about", {message: "Ya dañé todo!"});
-});
