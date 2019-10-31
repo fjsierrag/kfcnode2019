@@ -12,8 +12,4 @@ describe("Hello", () => {
         assert.lengthOf(foo, 3);
     });
 });
-/*
-describe("api/keywords/controller",()=>{
-    it("should create a keyword");
-});
-*/
+
