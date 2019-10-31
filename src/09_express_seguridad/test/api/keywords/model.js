@@ -1,23 +1,22 @@
 const chai = require("chai");
+const config = require("config");
 const {MongoMemoryServer} = require("mongodb-memory-server");
 const mongoose = require("mongoose");
+
 const expect = chai.expect;
 const assert = chai.assert;
-const Keywords = require("../../../api/keywords/model");
+
 chai.should();
 
 describe("api/keywords/model", () => {
+    const database = config.get("database")
     const mongoServer = new MongoMemoryServer();
     before(async () => {
         const dburi = await mongoServer.getConnectionString();
         console.log(dburi);
         await mongoose.connect(
-            dburi, {useNewUrlParser: true, poolSize: 10, useUnifiedTopology: true}
+            dburi, database.options
         );
-    });
-
-    it("should create a keyword", () => {
-        const kw = Keywords.create();
     });
 
     after(async () => {

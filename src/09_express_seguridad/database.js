@@ -1,15 +1,9 @@
 const mongoose = require("mongoose");
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/cursonode_1";
+const config = require("config");
 
 function connect() {
-    mongoose.connect(
-        MONGODB_URI,
-        {
-            useNewUrlParser: true,
-            poolSize: 10,
-            useUnifiedTopology: true
-        }
-    );
+    const database = config.get("database");
+    mongoose.connect(database.uri, database.options);
 
     const conn = mongoose.connection;
     conn.on("error", error => {

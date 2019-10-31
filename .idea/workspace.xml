@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/test/api/keywords/model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/test/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/test/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/test/api/keywords/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/test/api/keywords/model.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,12 +102,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.api/keywords/model">
-    <configuration name="devconfig" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.api/keywords/model.should create a keyword">
+    <configuration name="prodconfig" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
       <command value="run" />
       <scripts>
-        <script value="devconfig" />
+        <script value="prodconfig" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -139,22 +138,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Hello.World" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/src/09_express_seguridad</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/src/09_express_seguridad/test/hello.js</test-file>
-      <test-names>
-        <name value="Hello" />
-        <name value="World" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="api/keywords/model" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -170,13 +153,29 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="api/keywords/model.should create a keyword" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/src/09_express_seguridad</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/src/09_express_seguridad/test/api/keywords/model.js</test-file>
+      <test-names>
+        <name value="api/keywords/model" />
+        <name value="should create a keyword" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.api/keywords/model.should create a keyword" />
         <item itemvalue="Mocha.api/keywords/model" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.prodconfig" />
         <item itemvalue="Mocha.Hello" />
-        <item itemvalue="Mocha.Hello.World" />
-        <item itemvalue="npm.devconfig" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +203,7 @@
       <workItem from="1572386130307" duration="9979000" />
       <workItem from="1572396463868" duration="2711000" />
       <workItem from="1572445266478" duration="1227000" />
-      <workItem from="1572475619990" duration="8855000" />
+      <workItem from="1572475619990" duration="11776000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -388,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572483349779</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Test - servidor de Mongo aleatorio para cada test">
+      <created>1572485353857</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1572485353857</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +448,8 @@
     <MESSAGE value="Servicio Keywords" />
     <MESSAGE value="COnfiguraciones en variables de entorno" />
     <MESSAGE value="Configuraciones en libreria config&#10;TESTING hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuraciones en libreria config&#10;TESTING hello world" />
+    <MESSAGE value="Test - servidor de Mongo aleatorio para cada test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test - servidor de Mongo aleatorio para cada test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
