@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/todos.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/todos.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/todos/controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/todos/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/todos/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/todos/service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/config/custom-environment-variables.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/config/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/config/development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/config/production.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/config/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/database.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/public/archivo3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/public/img/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/routes.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +216,7 @@
       <workItem from="1572445266478" duration="1227000" />
       <workItem from="1572475619990" duration="11841000" />
       <workItem from="1572533644629" duration="143000" />
-      <workItem from="1572563253976" duration="2014000" />
+      <workItem from="1572563253976" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -405,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572564544369</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Prueba finalizada - Carpeta 09_express_seguridad">
+      <created>1572565341436</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1572565341436</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +485,8 @@
     <MESSAGE value="Test - servidor de Mongo aleatorio para cada test" />
     <MESSAGE value="Mocha V0.1" />
     <MESSAGE value="Pruebsa- Carpeta --- ESTA EN LA CARPETA 09_express_seguridad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pruebsa- Carpeta --- ESTA EN LA CARPETA 09_express_seguridad" />
+    <MESSAGE value="Prueba finalizada - Carpeta 09_express_seguridad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba finalizada - Carpeta 09_express_seguridad" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
