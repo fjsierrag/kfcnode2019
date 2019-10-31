@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const keywordService = require("./api/keywords/service");
+const tododService = require("./api/todos/service");
 
 router.route("/about")
     .get((req, res) => {
@@ -17,5 +18,14 @@ router.route("/keywords")
             keywords
         });
     });
+
+router.route("/todos")
+    .get(async (req, res) => {
+        const todos = await todoService.search();
+        res.render("templates/todos", {
+            todos
+        });
+    });
+
 
 module.exports = router;

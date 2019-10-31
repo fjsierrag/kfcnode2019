@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/todos.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/custom-environment-variables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/production.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/test/api/keywords/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/test/api/keywords/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/products/controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/products/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/routes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +80,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/views/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views\templates" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\10_express_prueba\api\todos" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\10_express_prueba" />
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\10_express_prueba\api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views\templates" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public\img" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\07_express_01\public" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\03_modulos" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\config" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views\partials" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\crypt" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -203,7 +222,9 @@
       <workItem from="1572386130307" duration="9979000" />
       <workItem from="1572396463868" duration="2711000" />
       <workItem from="1572445266478" duration="1227000" />
-      <workItem from="1572475619990" duration="11776000" />
+      <workItem from="1572475619990" duration="11841000" />
+      <workItem from="1572533644629" duration="143000" />
+      <workItem from="1572563253976" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -394,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572485353857</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Mocha V0.1">
+      <created>1572533509459</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1572533509459</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +477,8 @@
     <MESSAGE value="COnfiguraciones en variables de entorno" />
     <MESSAGE value="Configuraciones en libreria config&#10;TESTING hello world" />
     <MESSAGE value="Test - servidor de Mongo aleatorio para cada test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test - servidor de Mongo aleatorio para cada test" />
+    <MESSAGE value="Mocha V0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mocha V0.1" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

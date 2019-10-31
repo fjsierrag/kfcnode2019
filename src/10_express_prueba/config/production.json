@@ -1,0 +1,9 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 4343
+  },
+  "auth": {
+    "tokenExpiresIn": "2h"
+  }
+}
