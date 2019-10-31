@@ -1,0 +1,21 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 4321
+  },
+  "auth": {
+    "secretKey": "SoloEsUN SECRETO",
+    "tokenExpiresIn": "2h"
+  },
+  "crypt": {
+    "hashSalt": 10
+  },
+  "database": {
+    "uri": "mongodb://localhost:27017/cursonode_1",
+    "options": {
+      "useNewUrlParser": true,
+      "poolSize": 10,
+      "useUnifiedTopology": true
+    }
+  }
+}

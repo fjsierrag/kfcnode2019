@@ -1,8 +1,13 @@
 const jwt = require("jsonwebtoken");
 const User = require("../users/model");
+const config = require("config");
 
-const SECRET_KEY = process.env.SECRET_KEY || "THISISASECRET";
-const TOKEN_EXPIRES_IN = process.env.TOKEN_EXPIRES_IN || "2h";
+/*
+const SECRET_KEY = config.get("auth.secretKey");
+const TOKEN_EXPIRES_IN = config.get("auth.tokenExpiresIn");
+*/
+
+const {secretKey, tokenExpiresIn} = config.get("auth");
 
 async function isLoggedIn(req, res, next) {
     try {
@@ -12,7 +17,9 @@ async function isLoggedIn(req, res, next) {
         }
         const bearer = auth.split(" ");
         const token = bearer[1];
-        const payload = jwt.verify(token, SECRET_KEY);
+
+        const payload = jwt.verify(token, secretKey);
+        //const payload = jwt.verify(token, SECRET_KEY);
 
         const user = await User.findById(payload._id);
         req.user = user;
@@ -28,7 +35,8 @@ function createToken(user) {
         email: user.email
     };
 
-    return jwt.sign(payload, SECRET_KEY, {expiresIn: TOKEN_EXPIRES_IN});
+    //return jwt.sign(payload, SECRET_KEY, {expiresIn: TOKEN_EXPIRES_IN});
+    return jwt.sign(payload, secretKey, {expiresIn: tokenExpiresIn});
 }
 
 module.exports = {

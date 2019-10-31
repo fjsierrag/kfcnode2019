@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/partials/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/partials/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/custom-environment-variables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/production.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/config/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/test/hello.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/auth/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/crypt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/crypt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/about.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/keywords.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/keywords.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,8 +69,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/views/partials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/09_express_seguridad/config" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
@@ -84,11 +84,11 @@
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\config" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views\partials" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\views" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\crypt" />
       <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\auth" />
-      <recent name="C:\Users\francisco.sierra\cursonode\ejercicios\src\09_express_seguridad\api\users" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -110,64 +110,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.dev">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="devconfig" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
       <command value="run" />
       <scripts>
-        <script value="dev" />
+        <script value="devconfig" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/src/08_express_02/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="prodconfig" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="prodconfig" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/src/07_express_01/package.json" />
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/src/07_express_01/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start4" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="Hello" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/src/09_express_seguridad</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/src/09_express_seguridad/test/hello.js</test-file>
+      <test-names>
+        <name value="Hello" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Hello.World" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/src/09_express_seguridad</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/src/09_express_seguridad/test/hello.js</test-file>
+      <test-names>
+        <name value="Hello" />
+        <name value="World" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.start (2)" />
-        <item itemvalue="npm.start (1)" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.start4" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.Hello" />
+        <item itemvalue="Mocha.Hello.World" />
+        <item itemvalue="npm.devconfig" />
+        <item itemvalue="npm.prodconfig" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +206,7 @@
       <workItem from="1572386130307" duration="9979000" />
       <workItem from="1572396463868" duration="2711000" />
       <workItem from="1572445266478" duration="1227000" />
-      <workItem from="1572475619990" duration="2803000" />
+      <workItem from="1572475619990" duration="6769000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -365,11 +376,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572399148279</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="COnfiguraciones en variables de entorno">
+      <created>1572479256311</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1572479256311</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -407,7 +435,8 @@
     <MESSAGE value="Separando Auth y Crypt" />
     <MESSAGE value="EJS, vista /about" />
     <MESSAGE value="Servicio Keywords" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servicio Keywords" />
+    <MESSAGE value="COnfiguraciones en variables de entorno" />
+    <option name="LAST_COMMIT_MESSAGE" value="COnfiguraciones en variables de entorno" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
