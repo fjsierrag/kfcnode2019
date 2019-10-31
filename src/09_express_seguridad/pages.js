@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const keywordService = require("./api/keywords/service");
-const tododService = require("./api/todos/service");
+const todoService = require("./api/todos/service");
 
 router.route("/about")
     .get((req, res) => {

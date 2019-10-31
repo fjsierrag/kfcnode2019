@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969abb4d-acd3-4277-9b5d-0c69b8798fdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/todos.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/custom-environment-variables.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/default.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/production.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_express_prueba/config/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/keywords/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/api/todos/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/products/controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/api/todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/api/products/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_express_prueba/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_express_prueba/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/todos.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_express_seguridad/views/templates/todos.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,12 +102,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.api/keywords/model.should create a keyword">
+  <component name="RunManager" selected="npm.prodconfig">
     <configuration name="prodconfig" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
       <command value="run" />
       <scripts>
         <script value="prodconfig" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/09_express_seguridad/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -140,21 +131,6 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Hello" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/src/09_express_seguridad/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/src/09_express_seguridad</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/src/09_express_seguridad/test/hello.js</test-file>
-      <test-names>
-        <name value="Hello" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="api/keywords/model" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -190,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.prodconfig" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Mocha.api/keywords/model.should create a keyword" />
         <item itemvalue="Mocha.api/keywords/model" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.prodconfig" />
-        <item itemvalue="Mocha.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +200,7 @@
       <workItem from="1572445266478" duration="1227000" />
       <workItem from="1572475619990" duration="11841000" />
       <workItem from="1572533644629" duration="143000" />
-      <workItem from="1572563253976" duration="1209000" />
+      <workItem from="1572563253976" duration="2014000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1571701724171</created>
@@ -422,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572533509459</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Pruebsa- Carpeta --- ESTA EN LA CARPETA 09_express_seguridad">
+      <created>1572564544369</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1572564544369</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +461,8 @@
     <MESSAGE value="Configuraciones en libreria config&#10;TESTING hello world" />
     <MESSAGE value="Test - servidor de Mongo aleatorio para cada test" />
     <MESSAGE value="Mocha V0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mocha V0.1" />
+    <MESSAGE value="Pruebsa- Carpeta --- ESTA EN LA CARPETA 09_express_seguridad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pruebsa- Carpeta --- ESTA EN LA CARPETA 09_express_seguridad" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

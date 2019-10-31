@@ -5,11 +5,11 @@ const {isLoggedIn} = require("../auth");
 
 router.route("/")
     .get(controller.search)
-    .put(isLoggedIn, controller.create);
+    .post(isLoggedIn, controller.create);
 
 router.route("/:id")
-    .get(isLoggedIn, controller.readById)
-    .post(isLoggedIn, controller.update)
+    .get(controller.readById)
+    .put(isLoggedIn, controller.update)
     .delete(isLoggedIn, controller.remove);
 
 module.exports = router;

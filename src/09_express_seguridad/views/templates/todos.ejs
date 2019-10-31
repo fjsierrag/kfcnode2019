@@ -10,10 +10,10 @@
 </head>
 <body>
 <%- include('../partials/header'); %>
-<h1>Keywords: </h1>
+<h1>Lista de pendientes: </h1>
 <ul>
-    <% keywords.forEach(value =>{ %>
-        <li><%= value.desc %></li>
+    <% todos.forEach(value =>{ %>
+        <li><%= value.description %></li>
     <% }); %>
 </ul>
 <%- include('../partials/footer'); %>
