@@ -1,7 +1,10 @@
 const mongoose = require("mongoose");
 
 const schema = new mongoose.Schema({
-    name: String,
+    name: {
+        type: String,
+        required: true
+    },
     desc: String,
     url: String,
 });

@@ -33,3 +33,5 @@ app.listen(PORT, () => {
 
     console.log(`http://${HOST}:${PORT}`);
 });
+
+module.exports = app;
