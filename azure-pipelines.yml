@@ -21,6 +21,6 @@ steps:
   workingDirectory: 'src/09_express_seguridad/'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/src/09_express_seguridad/'
+    PathtoPublish: 'src/09_express_seguridad/'
     ArtifactName: 'drop'
     publishLocation: 'Container'
