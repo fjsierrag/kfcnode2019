@@ -21,8 +21,8 @@ steps:
   workingDirectory: 'src/09_express_seguridad/'
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
-    includeRootFolder: true
+    rootFolderOrFile: 'src/09_express_seguridad'
+    includeRootFolder: false
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
